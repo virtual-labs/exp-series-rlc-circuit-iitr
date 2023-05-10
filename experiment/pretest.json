@@ -1,39 +1,101 @@
-{
-  "version": 2.0,
-  "questions": [
+[
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+        "question": "In a series RLC circuit, the phase difference between the current in the capacitor and the current in the resistor is?",
+        "answers": {
+            "a": " 0°",
+            "b": "90°",
+            "c": "180°",
+            "d": "360°"
+        },
+        "correctAnswer": "a"
     },
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+        "question": "In a series RLC circuit, the phase difference between the current in the inductor and the current in the resistor is?",
+        "answers": {
+            "a": " 0°",
+            "b": "90°",
+            "c": "180°",
+            "d": "360°"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In a series RLC circuit, the phase difference between the current in the capacitor and the current in the inductor is?",
+        "answers": {
+            "a": " 0°",
+            "b": "90°",
+            "c": "180°",
+            "d": "360°"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "$X_L$ and $X_C$ have opposing effects in an RLC circuit?",
+        "answers": {
+            "a": "False",
+            "b": "True"
+        },
+           
+        "correctAnswer": "b"
+    },
+    {
+        "question": "A 90 Ω resistor, a coil with 30 Ω of reactance, and a capacitor with 50 Ω of reactance are in series across a 12 V AC source. The current through the resistor is?",
+        "answers": {
+            "a": "9 mA",
+            "b": "90 mA",
+            "c": "13 mA",
+            "d": "130 mA"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "A certain series RLC circuit with a 200 Hz, 15 V AC source has the following values: R = 12 Ω, C = 80 μF, and L = 10 mH. The total impedance expressed in polar form is-",
+        "answers": {
+            "a": "12.28 ∠12.34° Ω",
+            "b": "12.57 ∠12.34° Ω",
+            "c": "9.95 ∠12.34° Ω",
+            "d": "12.62 ∠12.34° Ω"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "While drawing vector diagram for a series circuit, the reference vector is?",
+        "answers": {
+            "a": "Voltage",
+            "b": "Current",
+            "c": "Power",
+            "d": "Phase angle"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "A capacitor having a capacitance of 20 μF is connected in series with a non-inductive resistance of 120 Ω across a 100-V, 50-Hz supply. Calculate the power?",
+        "answers": {
+            "a": "63.45 W",
+            "b": "30.20 W",
+            "c": "10.58 W",
+            "d": "58.62 W"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the correct expression for the phase angle in an RLC series circuit?",
+        "answers": {
+            "a": "$Φ =\frac {tan^{-1}(X_L - X_C)} {R}$",
+            "b": "$Φ = \frac {tan^{-1}(X_L + X_C)} {R}",
+            "c": "Φ = \frac {tan^{-1}(X_L - X_C)} {Z}",
+            "d": "Φ = \frac{tan^{-1}(X_L + X_C)} {Z}"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In an RLC circuit, the power factor is always ____________",
+        "answers": {
+            "a": "Positive ",
+            "b": "Negative",
+            "c": "Depend on the circuit",
+            "d": "Zero"
+        },
+        "correctAnswer": "c"
     }
-  ]
-}
+]
