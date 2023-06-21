@@ -522,7 +522,7 @@ check.onclick = function checkConn() {
         MCB.disabled = false
     }
     else {
-        window.alert('Invalid Connections!')
+        window.alert('Please make the connections!')
     }
 }
 
