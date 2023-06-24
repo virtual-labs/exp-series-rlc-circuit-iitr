@@ -1,30 +1,29 @@
-## Introduction
+## Introduction (Round 0)
 
+<br>
 
-<b>Discipline | <b>Electrical Engineering
+<b>Discipline | <b> Electrical Engineering
 :--|:--|
-<b> Lab | <b> Basic Electrical Science
-<b> Experiment|     <b> To Study and measure the voltage, Current, Power and Power factor in Series RLC circuit
+<b> Lab | <b> Basic Electrical Science (Simulation)
+<b> Experiment|     <b> To Study and measure the voltage, Current, Power and Power factor in Series RLC circuit.
 
-### About the Experiment 
+<h5> About the Experiment : </h5> <br>
 
-Fill a brief description of this experiment here
+To Study and measure the voltage, Current, Power and Power factor in Series RLC circuit.
 
-<b>Name of Developer | <b> Prof RS Anand 
+<b>Name of Developer | <b> Prof. RS Anand
 :--|:--|
-<b> Institute | <b>  IIT Roorkee
-<b> Email id|     <b>  anandfee@gmail.com	
-<b> Department |  Electrical Engineering
+<b> Institute | <b> IIT Roorkee
+<b> Email id|   <b> anandfee@gmail.com
+<b> Department | Electrical Engineering
 
-### Contributors List
+#### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Rajeev Kumar | Senior Research Fellow | Electrical Engineering | IIT Roorkee | rajeevkumar.rke@gmail.com
-2 | Nipun Jain | Project Associate | Electrical Engineering | IIT Roorkee | nipunjain1305@gmail.com
-3 | Rahul Saini | Project Associate | Electrical Engineering | IIT Roorkee | rahul.saini8599@gmail.com
-4 | Piyush Rawat | Project Associate | Electrical Engineering | IIT Roorkee | rawatpiyush72@gmail.com
-5 | Pragya Daksh | Project Associate | Electrical Engineering | IIT Roorkee | prgdaksh@gmail.com
+1 | Prof. RS Anand | Faculty | Electrical Engineering | IIT Roorkee, Roorkee | anandfee@gmail.com
+2 | Rajeev Kumar | Research Fellow | Electrical Engineering | IIT Roorkee, Roorkee | rajeevkumar.rke@gmail.com
+3 | Piyush Rawat | Project Associate | Electrical Engineering | IIT Roorkee, Roorkee | rawatpiyush72@gmail.com
+4 | Rahul Saini | Project Associate | Electrical Engineering | IIT Roorkee, Roorkee | rahul.saini8599@gmail.com
 
-
-
+<br>
