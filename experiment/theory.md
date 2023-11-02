@@ -142,13 +142,13 @@ $$Active Power,P=VI cos∅$$
 $$Reactive Power,Q= VI sin∅$$
 
 
-### Advantages of Series RLC circuit
+### Advantages of series RLC circuit
 
 *  No separate compensating reactors (just as we have in case of test transformers) are required. This results in a lower overall weight. 
 *  When testing SF6 switchgear, multiple breakdowns do not result in high transients. Hence, no special protection against transients is required. 
 *  The series resonance circuit suppresses harmonics and interference to a large extent. The near sinusoidal wave helps accurate partial discharge of measurements and is also desirable for measuring loss angle and capacitance of insulating materials using Schering Bridge.
 
-### Disadvantages of Series RLC circuit
+### Disadvantages of series RLC circuit
 
 *  If one point breaks in the series circuit, the total circuit will break.
 *  As the number of components in a circuit increases, greater will be the circuit resistance.
