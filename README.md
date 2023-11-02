@@ -5,7 +5,7 @@
 <b>Discipline | <b> Electrical Engineering
 :--|:--|
 <b> Lab | <b> Basic Electrical Science (Simulation)
-<b> Experiment|     <b> To Study and measure the voltage, Current, Power and Power factor in Series RLC circuit.
+<b> Experiment|     <b>3. To Study and measure the voltage, Current, Power and Power factor in Series RLC circuit.
 
 <h5> About the Experiment : </h5> <br>
 
