@@ -1,1 +1,1 @@
-## To Study and measure the voltage, Current, Power and Power factor in Series RLC circuit.
+## To study and measure the voltage, current, power and power factor in series RLC circuit.
