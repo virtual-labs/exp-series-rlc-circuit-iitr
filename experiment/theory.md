@@ -1,6 +1,6 @@
 
 
-# Series RLC Circuit 
+# Series RLC circuit 
 
 
 ### Theory
