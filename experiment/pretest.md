@@ -84,7 +84,7 @@ Q9. What is the correct expression for the phase angle in an RLC series circuit?
 
 A. $Φ =\frac {tan^{-1}(X_L - X_C)} {R}$
 
-B. $Φ = \frac {tan^{-1}(X_L + X_C)} {R}$
+B. $Φ =\frac {tan^{-1}(X_L + X_C)} {R}$
 
 C. $Φ = \frac {tan^{-1}(X_L - X_C)} {Z}$
 
