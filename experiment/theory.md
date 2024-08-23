@@ -1,8 +1,3 @@
-
-
-# Series RLC Circuit 
-
-
 ### Theory
 
 <br>
