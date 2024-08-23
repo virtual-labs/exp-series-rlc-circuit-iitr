@@ -1,20 +1,9 @@
 
 
-
+# Series RLC Circuit 
 
 
 ### Theory
-
-
-<head>
-
-<script type="text/javascript" async
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
-  
-  </script>
-
-</head>
-
 
 <br>
 
@@ -38,7 +27,7 @@ The series RLC circuit above has a single loop so the same instantaneous current
 
 <br>
 
-$$ I(t) = I~max~ sin(ωt) $$ 
+<center>$ I(t) = I~max~ sin(ωt) $</center>
 
 <br>
 
@@ -53,12 +42,11 @@ By applying KVL in the circuit:-
 
 <br>
 
-$$V_S - V_R - V_L - V_C = 0$$
+<center>$V_S - V_R - V_L - V_C = 0$</center>
 
-$$V_S - I_R-L\frac {di} {dt}-\frac {Q}{C} =0 $$
+<center>$V_S - I_R-L\frac {di} {dt}-\frac {Q}{C} =0 $</center>
 
-$$V_S = I_R+L\frac {di} {dt}+\frac {Q}{C} =0 ....(1)   $$ 
-
+<center>$V_S = I_R+L\frac {di} {dt}+\frac {Q}{C} =0 ....(1)   $ </center>
 <br>
 
 As the current flowing in the circuit is common to the all three circuit elements we can use this as a reference vector with the three voltage vector drawn relative to the reference current vector.
@@ -73,29 +61,28 @@ Figure 2: Voltage Triangle
 
 <br>
 
-
 This triangle obtained is also called voltage triangle. 
 Here, Magnitude of voltage.
 
-$$|V_S |= \sqrt{(V_R)^2+(V_L-V_C)^2  }.........(2)$$
+<center>$|V_S |= \sqrt{(V_R)^2+(V_L-V_C)^2  }.........(2)$</center>
 
 Here the final reactive voltage must be positive value. i.e for inductive circuit it would be $(V_L-V_C)$ and for capacitive circuit it will be $(V_C-V_L)$.
 Current has same phase and amplitude in all components of series RLC circuit so voltage across each component can be described mathematically according to the current flowing through as shown
 
-$$V_R=iRsin(ωt+0°)$$
+<center>$V_R=iRsin(ωt+0°)$</center>
 
-$$V_L=iX_L sin(ωt+90°)=i.jωL$$
+<center>$V_L=iX_L sin(ωt+90°)=i.jωL$</center>
 
-$$V_C=iX_C sin(ωt-90°)=i.\frac {1} {jwc}$$
+<center>$V_C=iX_C sin(ωt-90°)=i.\frac {1} {jwc}$</center>
 
 By substituting these values into the voltage triangle equation above-
 
 
-$$V_R=IR , V_L=IX_L , V_C=IX_C $$
+<center> $V_R=IR , V_L=IX_L , V_C=IX_C $</center>
 
-$$V_S=\sqrt{(IR)^2+ (IX_L-IX_C)^2  }$$
+<center> $V_S=\sqrt{(IR)^2+ (IX_L-IX_C)^2  }$</center>
 
-$$V_S=I\sqrt{(R)^2+ (X_L-X_C)^2 }$$
+<center> $V_S=I\sqrt{(R)^2+ (X_L-X_C)^2 }$</center>
 
 <br>
 
@@ -118,7 +105,7 @@ The impedance Z of the series RLC circuit depends on the frequency ω as $X_L$ &
 
 <p style="text-align:center">  
 
-  $$ Impedance, Z = \sqrt{R^2+ (ωL-\frac {1}{ωC})^2 }.........(3) $$
+<center>  $ Impedance, Z = \sqrt{R^2+ (ωL-\frac {1}{ωC})^2 }.........(3) $</center>
 
 </p>
 
@@ -127,28 +114,28 @@ The impedance Z of the series RLC circuit depends on the frequency ω as $X_L$ &
 The phase angle, Ø between the source voltage $V_S$ and the current I is the same as the angle between Z and R in the impedance triangle. This angle may be positive and negative depending on whether the source voltage is leading or lagging the current. From the impedance triangle phase angle can be calculated as-
 
 
-$$ Power factor, Cos∅ = \frac{R}{Z} .........(4) $$
+<center> $ Power factor, Cos∅ = \frac{R}{Z} .........(4) $</center>
 
-$$sin⁡∅ = \frac{(X_L-X_C)} {Z}$$
+<center> $sin⁡∅ = \frac{(X_L-X_C)} {Z}$</center>
 
-$$tan⁡∅ = \frac{(X_L-X_C)} {R}$$
+<center> $tan⁡∅ = \frac{(X_L-X_C)} {R}$</center>
 
 Further, Power absorbed in the circuit can be calculated as,
 
-$$Apparent Power,S = VI$$
+<center> $Apparent Power,S = VI$</center>
 
-$$Active Power,P=VI cos∅$$
+<center> $Active Power,P=VI cos∅$</center>
 
-$$Reactive Power,Q= VI sin∅$$
+<center> $Reactive Power,Q= VI sin∅$</center>
 
 
-### Advantages of series RLC circuit
+### Advantages of Series RLC circuit
 
 *  No separate compensating reactors (just as we have in case of test transformers) are required. This results in a lower overall weight. 
 *  When testing SF6 switchgear, multiple breakdowns do not result in high transients. Hence, no special protection against transients is required. 
 *  The series resonance circuit suppresses harmonics and interference to a large extent. The near sinusoidal wave helps accurate partial discharge of measurements and is also desirable for measuring loss angle and capacitance of insulating materials using Schering Bridge.
 
-### Disadvantages of series RLC circuit
+### Disadvantages of Series RLC circuit
 
 *  If one point breaks in the series circuit, the total circuit will break.
 *  As the number of components in a circuit increases, greater will be the circuit resistance.
