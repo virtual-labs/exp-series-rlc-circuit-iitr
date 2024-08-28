@@ -82,13 +82,13 @@ D. 58.62 W
 
 Q9. What is the correct expression for the phase angle in an RLC series circuit?
 
-A. $Φ =\frac {tan^{-1}(X_L - X_C)} {R}$
+A. $\Phi= \frac {\tan^{-1}(X_L - X_C)} {R}$
 
-B. $Φ =\frac {tan^{-1}(X_L + X_C)} {R}$
+B. $\Phi= \frac {\tan^{-1}(X_L + X_C)} {R}$
 
-C. $Φ = \frac {tan^{-1}(X_L - X_C)} {Z}$
+C. $\Phi= \frac {\tan^{-1}(X_L - X_C)} {Z}$
 
-D. $Φ = \frac{tan^{-1}(X_L + X_C)} {Z}$
+D. $\Phi= \frac {\tan^{-1}(X_L + X_C)} {Z}$
 
 Q10. In an RLC circuit, the power factor is always ____________.
 
