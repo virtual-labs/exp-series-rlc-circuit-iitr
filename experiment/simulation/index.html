@@ -53,8 +53,7 @@
                 <p>Instructions</p>
 
                 <ul type="none" class="steps">
-                    
-                    <li id="s1" style="color:red ;"> <b> Step 1:</b> Make connections as per the instructions given below.</li><br/>
+                    <li> <b> Step 1:</b> Make connections as per the instructions given below.</li><br/>
                     <ul>
                         <li>1-23, 2-24</li>
                         <li>3-25, 4-26</li>
@@ -67,17 +66,17 @@
                     </ul><br/>
 
                     <li> <b>Note: Click on the label to delete connection for the corresponding node.</b></li><br/>
-                    <li id="s2"> <b>Step 2:</b> Now, Check the connections by clicking on <b> ‘CHECK’</b> button.</li><br/>
+                    <li> <b>Step 2:</b> Now, Check the connections by clicking on <b> ‘CHECK’</b> button.</li><br/>
                         <ul>
                             <li>If the connections are <b> ‘Invalid connections’</b> click on corresponding node to remove the connection.</li><br/>
                             <li> And if the connections are <b> ‘Right Connections’</b> then follow the below steps.</li><br/>
                         </ul>
 
-                    <li id="s3"><b> Step 3:</b> Turn on the MCB.</li><br/>
-                    <li id="s4"><b> Step 4:</b> Switch on the variac by clicking on the button.</li><br/>
-                    <li id="s5"><b> Step 5:</b>  Click on the variac knob to set the voltage at 220V.</li><br/>
-                    <li id="s6"><b> Step 6:</b>Now, Click on <b>‘ADD’</b> button to add the readings in the observation table.</li><br/>
-                    <li id="s7"><b> Step 7:</b> In Calculations section, We have to manually calculate the values by using the formula and verify it with the help of <b>Verify</b> button.</li><br/>
+                    <li><b> Step 3:</b> Turn on the MCB.</li><br/>
+                    <li><b> Step 4:</b> Switch on the variac by clicking on the button.</li><br/>
+                    <li><b> Step 5:</b>  Click on the variac knob to set the voltage at 220V.</li><br/>
+                    <li><b> Step 6:</b>Now, Click on <b>‘ADD’</b> button to add the readings in the observation table.</li><br/>
+                    <li><b> Step 7:</b> In Calculations section, We have to manually calculate the values by using the formula and verify it with the help of <b>Verify</b> button.</li><br/>
                 </ul>
             </div>
             <div class="MyLabel">
@@ -179,8 +178,8 @@
                                 <th>S.No</th>
                                 <th>Voltage(V)</th>
                                 <th>Current(A)</th>
-                                <th>V<sub>R</sub>(V)</th>
                                 <th>V<sub>L</sub>(V)</th>
+                                <th>V<sub>R</sub>(V)</th>
                                 <th>V<sub>C</sub>(V)</th>
                                 <th>Power(KW)</th>
                             </tr>
@@ -203,20 +202,18 @@
 
                             <img class="forbidden" src="images/MCB_off.png" alt="" height="120" width="100" id="mcb">
                             <button id="mcb_switch" disabled="true"></button>
-                            <button id="mcb_p"><label onclick="disconnect(0)">1</label></button>
-                            <button id="mcb_n"><label onclick="disconnect(1)">2</label></button>
+                            <button id="mcb_p"><label  style="z-index: 2;" onclick="disconnect(0)">1</label></button>
+                            <button id="mcb_n"><label  style="z-index: 2;" onclick="disconnect(1)">2</label></button>
 
                         </div>
-
 
                         <div class="voltmeter">
                             <img class="forbidden" src="images/V.png" width="179" height="179" alt="" id="V">
                             <img class="forbidden" src="images/Pointer.png" width="44" height="14" alt="" id="P_V">
-                            <button id="Mp_v"><label onclick="disconnect(2)">3</label></button>
-                            <button id="Mn_v"><label onclick="disconnect(3)">4</label></button>
+                            <button id="Mp_v"><label  style="z-index: 2;"  onclick="disconnect(2)">3</label></button>
+                            <button id="Mn_v"><label  style="z-index: 2;" onclick="disconnect(3)">4</label></button>
 
                         </div>
-
 
                         <div class="ammeter">
                             <img class="forbidden" src="images/A1.png" width="179" height="179" alt="" id="A">
@@ -226,11 +223,10 @@
                             <button id="Mn_a"><label style="z-index: 2;" onclick="disconnect(5)">6</label></button>
                         </div>
 
-
                         <div class="wattmeter">
                             <img class="forbidden" src="images/wattmeter.png" id="W" height="220" width="220" alt="">
                             <img class="forbidden" src="images/Pointer.png" height="15" width="60" id="P_W" alt="">
-                            <button id="w_v"><label onclick="disconnect(6)">7</label></button>
+                            <button id="w_v"><label  style="z-index: 2;" onclick="disconnect(6)">7</label></button>
                             <button id="w_l"><label onclick="disconnect(7)">8</label></button>
                             <button id="w_m"><label onclick="disconnect(8)">9</label></button>
                             <button id="w_c"><label onclick="disconnect(9)">10</label></button>
@@ -260,7 +256,7 @@
 
                                 <img class="forbidden" src="images/Pointer.png" width="44" height="14" alt=""
                                     id="BP_A">
-                                <button id="Bp_a"><label onclick="disconnect(14)">15</label></button>
+                                <button id="Bp_a"><label  style="z-index: 2;" onclick="disconnect(14)">15</label></button>
                                 <button id="Bn_a"><label onclick="disconnect(15)">16</label></button>
                             </div>
                         </div>
@@ -271,25 +267,22 @@
                                 <img class="forbidden" src="images/resistor.png" style="z-index: -2;" width="300" height="300" alt=""
                                     id="rheostat">
                                 <button id="rh_p"><label onclick="disconnect(16)">17</label></button>
-                                <button id="rh_n"><label onclick="disconnect(17)">18</label></button>
+                                <button id="rh_n"><label  style="z-index: 2;" onclick="disconnect(17)">18</label></button>
 
                             </div>
 
                             <div class="inductor">
                                 <img class="forbidden" src="images/inductor.png" width="200" height="150" alt=""
                                     id="inductor">
-                                <button id="i_p"><label onclick="disconnect(18)">19</label></button>
-                                <button id="i_n"><label onclick="disconnect(19)">20</label></button>
-
-
-
+                                <button id="i_p"><label  style="z-index: 2;" onclick="disconnect(18)">19</label></button>
+                                <button id="i_n"><label  style="z-index: 2;" onclick="disconnect(19)">20</label></button>
                             </div>
 
                             <div class="capacitor">
                                 <img class="forbidden" src="images/capacitor.png" width="250" height="250" alt=""
                                     id="capacitor">
                                 <button id="c_n"><label onclick="disconnect(20)">21</label></button>
-                                <button id="c_p"><label onclick="disconnect(21)">22</label></button>
+                                <button id="c_p"><label  style="z-index: 2;" onclick="disconnect(21)">22</label></button>
 
                             </div>
                         </div>
@@ -299,7 +292,7 @@
                             <button id="t_a"><label onclick="disconnect(22)">23</label></button>
                             <button id="t_b"><label onclick="disconnect(23)">24</label></button>
                             <button id="t_c"><label onclick="disconnect(24)">25</label></button>
-                            <button id="t_d"><label onclick="disconnect(25)">26</label></button>
+                            <button id="t_d"><label  style="z-index: 2;" onclick="disconnect(25)">26</label></button>
                             <button id="t_on" disabled="true"></button>
 
                             <img class="forbidden" src="images/Variac_OFF.png" width="450" height="450" alt="" id="transformer">
@@ -346,14 +339,10 @@
         </div>
 
         <footer>
-
             <p>Copyright@2022 Virtual Labs, IIT Roorkee</p>
            <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p>  --> 
           </footer>
-    
     </div>
-
-
 
     </div>
 

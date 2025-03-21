@@ -2,6 +2,8 @@
 ## Pre Test  
 #### Please attempt the following questions
 
+### Note- Reference books are available in the reference section.
+
 <div align="justify" style="font-size:18px;">
 
 Q1. In a series RLC circuit, the phase difference between the current in the capacitor and the current in the resistor is?
@@ -50,7 +52,7 @@ C. 13 mA
 
 D. 130 mA
  
-Q6.  A certain series RLC circuit with a 200 Hz, 15 V AC source has the following values: R = 12 Ω, C = 80 μF, and L = 10 mH. The total Impedance expressed in polar form is-
+Q6. A certain series RLC circuit with a 200 Hz, 15 V AC source has the following values: R = 12 Ω, C = 80 μF, and L = 10 mH. The total Impedance expressed in polar form is-
 
 A. 12.28 ∠12.34° Ω
 
@@ -82,13 +84,13 @@ D. 58.62 W
 
 Q9. What is the correct expression for the phase angle in an RLC series circuit?
 
-A. $\Phi= \frac {\tan^{-1}(X_L - X_C)} {R}$
+A. $Φ =\frac {tan^{-1}(X_L - X_C)} {R}$
 
-B. $\Phi= \frac {\tan^{-1}(X_L + X_C)} {R}$
+B. $Φ =\frac {tan^{-1}(X_L + X_C)} {R}$
 
-C. $\Phi= \frac {\tan^{-1}(X_L - X_C)} {Z}$
+C. $Φ =\frac {tan^{-1}(X_L - X_C)} {Z}$
 
-D. $\Phi= \frac {\tan^{-1}(X_L + X_C)} {Z}$
+D. $Φ =\frac {tan^{-1}(X_L + X_C)} {Z}$
 
 Q10. In an RLC circuit, the power factor is always ____________.
 
