@@ -1,10 +1,11 @@
-### Theory
+# Series RLC Circuit 
 
-<br>
+### Theory
 
 <div align="justify" style="font-size:18px;">
 
-We have the three basic passive components Resistance, capacitance and Inductance. When connected to a sinusoidal alternating voltage source they have different phase relationship with each other. But we can connect these passive elements together to form a series RLC circuit in series with an applied voltage supply.
+A series RLC circuit is a basic electrical circuit consisting of a resistor (R), an inductor (L), and a capacitor (C) connected in series with a voltage source. 
+The components interact to create a circuit with unique electrical characteristics that depend on the frequency of the applied voltage.
 
 <center>
 
@@ -15,127 +16,101 @@ Figure 1: Series RLC circuit
 
 <br>
 
+In this arrangement:<br>
 
-In a pure ohmic resistor the voltage waveforms are **"in-phase"** with the current. In a pure inductance the voltage waveform **"leads"** the current by 90° and in a pure capacitance the voltage waveform **"lags"** the current by 90°
+•	The resistor (R) opposes current flow and dissipates energy as heat.<br>
+•	The inductor (L) opposes changes in current and stores energy in its magnetic field.<br>
+•	The capacitor (C) opposes changes in voltage and stores energy in its electric field.<br>
 
-The series RLC circuit above has a single loop so the same instantaneous current will flow through each element. Here the inductive and capacitive reactance $X_L$ and $X_C$ are functions of supply frequency so the sinusoidal response of the series RLC circuit will vary with the frequency f. Then the individual voltage drops across each circuit element of R, L and C element will be **"out-of-phase"** with each other as defined by:
+In a pure ohmic resistor the voltage waveform is **"in-phase"** with the current. In a pure inductance the voltage waveform **"leads"** the current by 90° and in a pure capacitance the voltage waveform **"lags"** the current by 90°.
 
-<br>
+Let,   
 
-<center>$ I(t) = I~max~ sin(ωt) $</center>
+ V<sub>R</sub>  =  IR  = voltage drop across R   -in phase with I<br>
+ V<sub>L</sub>  = I.X<sub>L</sub> = voltage drop across L   -leading I by π/2<br>
+ V<sub>C</sub>  = I.X<sub>C</sub> = voltage drop across C   -lagging I by π/2<br>
 
-<br>
+**Inductive Reactance X<sub>L</sub>**: The opposition to current flow due to the inductor is given by:
+                                  <center> X<sub>L</sub> = 2πf L </center> <br>
+Where f is the frequency of the AC supply and L is the inductance of the inductor.
 
-The instantaneous voltage across a pure resistor, $V_R$ is **"in-phase"** with current. The instantaneous voltage across a pure inductor, $V_L$ **"leads"** the current by 90°. The instantaneous voltage across a pure capacitor, $V_C$ **"lags"** the current by 90°. Therefore, $V_L$ and $V_C$ are 180° "out-of-phase" and in opposition to each other.
+**Capacitive Reactance X<sub>C</sub>**: The opposition to current flow due to the capacitor is given by
+                                <center> X<sub>C</sub> = 1/2πf C  </center> <br>
+where C is the capacitance of the capacitor.
 
-
-For above series circuit amplitude of the source voltage across all three components in a series RLC circuit is made up of the three individual component voltages, $V_R$, $V_L$ and $V_C$ with the current as common to all three voltages. Therefore, the vector diagram will be drawn as current vector as reference and the three voltages will be plotted with this reference. We cannot simply add the three voltages as they are vector quantities to find the supply voltage $V_S$. So, to find the supply the voltage $V_S$ we need to phasor sum of the three component voltages.
-
-<br>
-
-By applying KVL in the circuit:-
-
-<br>
-
-<center>$V_S - V_R - V_L - V_C = 0$</center>
-
-<center>$V_S - I_R-L\frac {di} {dt}-\frac {Q}{C} =0 $</center>
-
-<center>$V_S = I_R+L\frac {di} {dt}+\frac {Q}{C} =0 ....(1)   $ </center>
-<br>
-
-As the current flowing in the circuit is common to the all three circuit elements we can use this as a reference vector with the three voltage vector drawn relative to the reference current vector.
-
-The resulting vector $V_S$ is obtained by adding $V_L$ and $V_C$ and the adding this sum to the remaining vector $V_R$. The angle obtained between $V_S$ and I will be the circuit phase angle as shown below.
 <center>
 
 ![series2](images/series2.png)
 
-Figure 2: Voltage Triangle
+Figure 2: Voltage triangle
+
 </center>
 
-<br>
+In the voltage triangle of Fig. 2, OA represents V<sub>R</sub>, AB and AC represents the inductive and capacitive drops respectively. It will be seen that V<sub>L</sub> and V<sub>C</sub> are 180° out of phase with each other i.e., they are in direct opposition to each other.<br>
 
-This triangle obtained is also called voltage triangle. 
-Here, Magnitude of voltage.
+Subtracting BD from AB, we get the net reactive drop AD = I (X<sub>L</sub> - X<sub>C</sub>).<br>
+The applied voltage V is represented by OD and is the vector sum of OA and AD.<br>
 
-<center>$|V_S |= \sqrt{(V_R)^2+(V_L-V_C)^2  }.........(2)$</center>
+Therefore, 
 
-Here the final reactive voltage must be positive value. i.e for inductive circuit it would be $(V_L-V_C)$ and for capacitive circuit it will be $(V_C-V_L)$.
-Current has same phase and amplitude in all components of series RLC circuit so voltage across each component can be described mathematically according to the current flowing through as shown
+<center> 
 
-<center>$V_R=iRsin(ωt+0°)$</center>
+$OD = \sqrt{OA^2 + AD^2} \quad \text{or} \quad V = \sqrt{(IR)^2 + (IX_L - IX_C)^2} = I\sqrt{R^2 + (X_L - X_C)^2}$ </br></br></br>
+or $ I= \frac {V}{\sqrt{R^2 + (X_L - X_C)^2}} = \frac{V}{\sqrt{R^2+X^2}}=  \frac {V}{Z}$
 
-<center>$V_L=iX_L sin(ωt+90°)=i.jωL$</center>
+</center>
 
-<center>$V_C=iX_C sin(ωt-90°)=i.\frac {1} {jwc}$</center>
+The term $\sqrt{R^2 + (X_L - X_C)^2}$ is known as the impedance of the circuit. Obviously,</br></br> 
+$(\text{impedance})^2 = (\text{resistance})^2 + (\text{net reactance})^2$</br></br> 
+<center>
 
-By substituting these values into the voltage triangle equation above-
+or $Z^2 = R^2 + (X_L - X_C)^2 = R^2 + X^2$
+</center>
 
-
-<center> $V_R=IR , V_L=IX_L , V_C=IX_C $</center>
-
-<center> $V_S=\sqrt{(IR)^2+ (IX_L-IX_C)^2  }$</center>
-
-<center> $V_S=I\sqrt{(R)^2+ (X_L-X_C)^2 }$</center>
-
-<br>
-
-On comparing this equation with the equation 1 we can obtain the impedance triangle
+Where R is the resistance and X is the net reactance shown in Fig.3
 
 <center>
 
-![series3](images/series3.png)
+![series3](images/series_new3.png)
 
 Figure 3: Impedance triangle
 
 </center>
 
-<br>
+The phase angle &straightphi; is given by:
 
+<center>
 
-The impedance Z of the series RLC circuit depends on the frequency ω as $X_L$ & $X_C$ also depends on it. The impedance of circuit can be written as
+$\tan \phi = \frac{X_L - X_C}{R} = \frac{X}{R} = \frac{\text{net reactance}}{\text{resistance}}$
 
-<br>
+</center>
 
-<p style="text-align:center">  
+<center>
 
-<center>  $ Impedance, Z = \sqrt{R^2+ (ωL-\frac {1}{ωC})^2 }.........(3) $</center>
+$\text{Power factor is } \cos \phi = \frac{R}{Z} = \frac{R}{\sqrt{R^2 + (X_L - X_C)^2}} = \frac{R}{\sqrt{R^2+X^2}}$
 
-</p>
+</center>
 
-<br>
+Hence, it is seen that if the equation of the applied voltage is v = V<sub>m</sub> sinωt, then the equation of the resulting current in an RLC circuit is given by i = I<sub>m</sub> sin (ωt + ∅).
+The +ve sign is to be used when current leads i.e., X<sub>C</sub> > X<sub>L</sub>.
+The -ve sign is to be used when current lags i.e., X<sub>L</sub> > X<sub>C</sub>.
 
-The phase angle, Ø between the source voltage $V_S$ and the current I is the same as the angle between Z and R in the impedance triangle. This angle may be positive and negative depending on whether the source voltage is leading or lagging the current. From the impedance triangle phase angle can be calculated as-
+Further, Power absorbed in the circuit can be calculated as,<br>
 
+<center> Apparent Power, S = VI <br>
+Active Power, P = VI cos∅ <br>
+Reactive Power, Q = VI sin∅ <br> </center>
 
-<center> $ Power factor, Cos∅ = \frac{R}{Z} .........(4) $</center>
+<b>Advantages of series RLC circuit:</b><br>
 
-<center> $sin⁡∅ = \frac{(X_L-X_C)} {Z}$</center>
+1. Series RLC circuits can be utilised to improve the power factor in AC power systems, reducing energy losses and enhancing efficiency.<br>
+2. Series RLC circuits are easy to design and analyse, making them ideal for filtering and tuning applications.<br>
+3. Amplify voltages across the inductor and capacitor at resonance, useful in oscillators and signal generation.<br>
+4. In antenna design, Series RLC circuits help achieve resonance at desired operating frequencies, maximising radiation  efficiency.<br>
 
-<center> $tan⁡∅ = \frac{(X_L-X_C)} {R}$</center>
+<b> Disadvantages of series RLC circuit:</b><br>
 
-Further, Power absorbed in the circuit can be calculated as,
-
-<center> $Apparent Power,S = VI$</center>
-
-<center> $Active Power,P=VI cos∅$</center>
-
-<center> $Reactive Power,Q= VI sin∅$</center>
-
-
-### Advantages of Series RLC circuit
-
-*  No separate compensating reactors (just as we have in case of test transformers) are required. This results in a lower overall weight. 
-*  When testing SF6 switchgear, multiple breakdowns do not result in high transients. Hence, no special protection against transients is required. 
-*  The series resonance circuit suppresses harmonics and interference to a large extent. The near sinusoidal wave helps accurate partial discharge of measurements and is also desirable for measuring loss angle and capacitance of insulating materials using Schering Bridge.
-
-### Disadvantages of Series RLC circuit
-
-*  If one point breaks in the series circuit, the total circuit will break.
-*  As the number of components in a circuit increases, greater will be the circuit resistance.
-
-
+1. Excessive current or voltage can also lead to overheating or damage to the resistor, inductor, or capacitor, reducing the circuit's lifespan.<br>
+2. If one point breaks in the series circuit, the total circuit will break.<br>
 </div>
-
 

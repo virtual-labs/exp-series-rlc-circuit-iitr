@@ -54,7 +54,7 @@
         "answers": {
             "a": "110.11 ohm",
             "b": "102.2 ohm",
-            "c": "128.15 ohm",
+            "c": "128.11 ohm",
             "d": "149.14 ohm"
         },
         "correctAnswer": "c"
@@ -82,7 +82,7 @@
     {
         "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Active power absorbed by the circuit?",
         "answers": {
-            "a": "1.85 W",
+            "a": "1.90 W",
             "b": "0.50 W",
             "c": "1.20 W",
             "d": "2.22 W"
