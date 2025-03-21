@@ -1,0 +1,102 @@
+[
+    {
+        "question": "When is tanφ positive?",
+        "answers": {
+            "a": "When inductive reactance is less than capacitive reactance",
+            "b": "When inductive reactance is greater than capacitive reactance",
+            "c": "When inductive reactance is equal to capacitive reactance",
+            "d": "When inductive reactance is zero"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "When is tanφ negative?",
+        "answers": {
+            "a": "When inductive reactance is less than capacitive reactance",
+            "b": "When inductive reactance is greater than capacitive reactance",
+            "c": "When inductive reactance is equal to capacitive reactance",
+            "d": "When inductive reactance is zero"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Find the total voltage applied in a series RLC circuit when i=3mA, $V_L$=30V, $V_C$=18V and R=1000 Ω?",
+        "answers": {
+            "a": "3.95V",
+            "b": "51V",
+            "c": "32.67V",
+            "d": "12.36V"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Inductive reactance in the circuit?",
+        "answers": {
+            "a": "36.10ohm",
+            "b": "94.25ohm",
+            "c": "125.9ohm",
+            "d": "140.7ohm"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": " In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Capacitive reactance in the circuit?",
+        "answers": {
+            "a": "316.12 ohm",
+            "b": "195.21 ohm",
+            "c": "124.89 ohm",
+            "d": "212.20 ohm"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Impedance in the circuit?",
+        "answers": {
+            "a": "110.11 ohm",
+            "b": "102.2 ohm",
+            "c": "128.11 ohm",
+            "d": "149.14 ohm"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Current in the circuit?",
+        "answers": {
+            "a": "0.019 A",
+            "b": "0.195 A",
+            "c": "0.025 A",
+            "d": "0.00195 A"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Phase difference between current and voltage?",
+        "answers": {
+            "a": "67.03°",
+            "b": "54.88°",
+            "c": "47.55°",
+            "d": "76.4°"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Active power absorbed by the circuit?",
+        "answers": {
+            "a": "1.90 W",
+            "b": "0.50 W",
+            "c": "1.20 W",
+            "d": "2.22 W"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In an AC circuit, Resistance is 50 Ω, Inductance is 0.3 H and Capacitance is 15 μF connected to an AC voltage source 25 V, 50 Hz. Determine the Reactive power absorbed by the circuit?",
+        "answers": {
+            "a": "2.94 W",
+            "b": "1.42 W",
+            "c": "4.2 W",
+            "d": "4.50 W"
+        },
+        "correctAnswer": "d"
+    }
+]
