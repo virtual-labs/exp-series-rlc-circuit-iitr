@@ -81,10 +81,18 @@
     {
         "question": "What is the correct expression for the phase angle in an RLC series circuit?",
         "answers": {
-            "a": "$Φ =\frac {tan^{-1}(X_L - X_C)} {R}$",
-            "b": "$Φ =\frac {tan^{-1}(X_L + X_C)} {R}",
-            "c": "Φ = \frac {tan^{-1}(X_L - X_C)} {Z}",
-            "d": "Φ = \frac{tan^{-1}(X_L + X_C)} {Z}"
+            "a": {
+                "image": "images/eq1.png"
+            },
+            "b": {
+                "image": "images/eq2.png"
+            },
+            "c": {
+                "image": "images/eq3.png"
+            },
+            "d": {
+                "image": "images/eq4.png"
+            } 
         },
         "correctAnswer": "a"
     },
